@@ -65,6 +65,7 @@ $(function() {
 			});
 
 			batkid.rendered = true;
+			batkid.search();
 		} else {
 			$('#photo-holder').isotope('insert', $newItems);
 		}
@@ -79,7 +80,7 @@ $(function() {
  	});
 
 	batkid.search();
-	
+
 });
 
 
