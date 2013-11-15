@@ -65,12 +65,15 @@ $(function() {
 			});
 
 			batkid.rendered = true;
-			batkid.search();
 		} else {
 			$('#photo-holder').isotope('insert', $newItems);
 		}
 
 		batkid.searching = false;
+
+		if($(window).height() > $('#photo-holder').height()){
+			batkid.search();
+		}
 	};
 
 	$(window).scroll(function() {
