@@ -1,0 +1,95 @@
+@font-face {
+	font-family:'Univers_condensed'; 
+	src: url('fonts/UniversLTStd-LightCn.ttf') format('truetype'),
+		url('fonts/UniversLTStd-LightCn.otf') format('opentype'),
+		url('fonts/UniversLTStd-LightCn.eot?') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'Univers_extra_black_oblique'; 
+	src: url('fonts/UniversLTStd-XBlackObl.ttf') format('truetype'),
+		url('fonts/UniversLTStd-XBlackObl.otf') format('opentype'),
+		url('fonts/UniversLTStd-XBlackObl.eot?') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body { 
+	margin:0; 
+	font-family:'Univers_condensed', helvetica, sans-serif; 
+	color: white;
+	background: black; 
+	font-size:18px; 
+	line-height:1.4;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#bg {
+	background: url(images/bg.jpg) no-repeat 0 0 fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+canvas
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	/*cursor: url(mouse2.cur), default;*/
+}
+
+#Video {
+	display:none;
+}
+
+#videoOverlay {
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+#social {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#social a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+#Upgrade {
+	padding: 40px;
+}
+#Upgrade h1 {
+	font-family:'Univers_extra_black_oblique', helvetica, sans-serif; 
+	font-size:24px; 
+}
