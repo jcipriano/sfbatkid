@@ -139,7 +139,7 @@ function PageBase()
 	{
 		var localTime = Comic.Instance.Timeline + Comic.Instance.Width - this.X - panelStart;
 		var duration = Comic.Instance.Width - this.Width;
-		var interpolator = localTime / Comic.Instance.Width;
+		var interpolator = localTime / (Comic.Instance.Width > 1280 ? 1280 : Comic.Instance.Width);
 		
 		// window width - panel left edge = visible panel amount
 		// [-1,0] = panel appearing on right side
