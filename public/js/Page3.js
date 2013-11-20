@@ -43,7 +43,7 @@ function Page3()
 		mImgBubble7 = this.Preload("images/p3/bubble7.png");
 		mImgBubble8 = this.Preload("images/p3/bubble8.png");
 		mImgBubble9 = this.Preload("images/p3/bubble9.png");
-		mImgBubble10 = this.Preload("images/p3/bubble10.png");
+		//mImgBubble10 = this.Preload("images/p3/bubble10.png");
 		mImgBubble11 = this.Preload("images/p3/bubble11.png");
 		this.zIndex += 3;
 	}
@@ -103,8 +103,8 @@ function Page3()
 		surface.drawImage(mImgBubble8, 1564, 44 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.5, 1.6);
 		surface.drawImage(mImgBubble9, 1200, 306 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
-		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.8, 1.9);
-		surface.drawImage(mImgBubble10, 1836, 128 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		//surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.8, 1.9);
+		//surface.drawImage(mImgBubble10, 1836, 128 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.9, 2.0);
 		surface.drawImage(mImgBubble11, 1842, 578 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.restore();

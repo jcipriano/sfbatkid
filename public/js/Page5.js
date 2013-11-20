@@ -36,7 +36,7 @@ function Page5()
 		mImgPanel10 = this.Preload("images/p5/panel10.png");
 		mImgPanel11 = this.Preload("images/p5/panel11.png");
 		mImgBubble1 = this.Preload("images/p5/bubble1.png");
-		mImgBubble2 = this.Preload("images/p5/bubble2.png");
+		//mImgBubble2 = this.Preload("images/p5/bubble2.png");
 		mImgBubble3 = this.Preload("images/p5/bubble3.png");
 		mImgBubble4 = this.Preload("images/p5/bubble4.png");
 		mImgBubble5 = this.Preload("images/p5/bubble5.png");
@@ -87,8 +87,8 @@ function Page5()
 		surface.save();
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 0.4, 0.5);
 		surface.drawImage(mImgBubble1, 236, 98 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
-		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.0, 1.1);
-		surface.drawImage(mImgBubble2, 840, 18 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		//surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.0, 1.1);
+		//surface.drawImage(mImgBubble2, 840, 18 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.1, 1.2);
 		surface.drawImage(mImgBubble3, 1154, 0 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.2, 1.3);
