@@ -94,7 +94,7 @@ function Page3()
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 0.9, 1.0);
 		surface.drawImage(mImgBubble4, 536, 130 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.0, 1.1);
-		surface.drawImage(mImgBubble5, 792, -50 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		surface.drawImage(mImgBubble5, 850, -20 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.2, 1.3);
 		surface.drawImage(mImgBubble6, 774, 334 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.35, 1.4);

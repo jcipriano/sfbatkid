@@ -76,12 +76,12 @@ function Page4()
 		surface.drawImage(mImgBubble2, 314, 12 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 0.8, 0.9);
 		surface.drawImage(mImgBubble3, 542, 348 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
-		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.1, 1.2);
-		surface.drawImage(mImgBubble4, 812, -20 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		//surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.1, 1.2);
+		//surface.drawImage(mImgBubble4, 812, -20 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.4, 1.5);
-		surface.drawImage(mImgBubble5, 950, 108 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		surface.drawImage(mImgBubble5, 990, 80 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.25, 1.35);
-		surface.drawImage(mImgBubble6, 1210, 230 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		surface.drawImage(mImgBubble6, 900, 230 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.5, 1.6);
 		surface.drawImage(mImgBubble7, 1490, 508 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.9, 2.0);
