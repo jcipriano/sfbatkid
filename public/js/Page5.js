@@ -20,7 +20,8 @@ function Page5()
 		mImgBubble5,
 		mImgBubble6,
 		mImgBubble7,
-		mImgBubble8;
+		mImgBubble8,
+		mImgBubble9;
 
 	this.Initialize = function()
 	{
@@ -43,6 +44,7 @@ function Page5()
 		mImgBubble6 = this.Preload("images/p5/bubble6.png");
 		mImgBubble7 = this.Preload("images/p5/bubble7.png");
 		mImgBubble8 = this.Preload("images/p5/bubble8.png");
+		mImgBubble9 = this.Preload("images/p5/bubble9.png");
 		this.zIndex += 4;
 	}
 
@@ -99,8 +101,8 @@ function Page5()
 		surface.drawImage(mImgBubble6, 1290, 556 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.6, 1.65);
 		surface.drawImage(mImgBubble7, 1644, 362 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
-		//surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 1.9, 2.0);
-		//surface.drawImage(mImgBubble8, 2000, 580 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
+		surface.globalAlpha = Interpolation.Normalize(this.Interpolator, 2.0, 2.1);
+		surface.drawImage(mImgBubble9, 1780, 20 - (30*Interpolation.easeOutQuad(surface.globalAlpha))+30);
 		surface.restore();
 	}
 
