@@ -19,7 +19,7 @@ function PageOutro()
 	
 	this.Draw = function(surface)
 	{
-		surface.drawImage(mImgThanks, 160, 220);
+		surface.drawImage(mImgThanks, 160, 120);
 	}
 
 	//https://wish.org/ways-to-help/giving/donate
