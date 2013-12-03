@@ -1,0 +1,25 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 11px;
+	color: #333;
+	background-color: #333;
+}
+
+.photo-item {
+	margin: 10px;
+	width: 250px;
+	background-color: #FFF;
+	border: 10px solid #FFF;
+}
+
+.photo-item img {
+	width: 100%;
+	height: auto;
+}
+
+.photo-text {
+	height: 50px;
+}
+
+.photo-text p {
+}
