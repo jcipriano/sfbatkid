@@ -11,7 +11,7 @@ Each panel from TheBatkid.com comes from Instagram, Twitter, Facebook and Flickr
  
 Visitors to TheBatkid.com are encouraged to donate to the Make-a-Wish Foundation.
  
-CREDITS
-Art Director: John Ta, Michael Dooley, Ben Pang
-Copywriter: Keith Hostert, Alex Gavin
+CREDITS 
+Art Director: John Ta, Michael Dooley, Ben Pang 
+Copywriter: Keith Hostert, Alex Gavin 
 Developer: Mikko Tormala, Jonathan Cipriano
