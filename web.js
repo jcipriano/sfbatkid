@@ -9,10 +9,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 var twitter = new Twitter({
-  'consumerKey': 'flciwzpXQFTwqVCFlEGkQ',
-  'consumerSecret': 'TtG1ZmR04uHOD5hH8NQ3xp78BaP5R7WkExkZ2R0',
-  'accessToken': '4534871-qxwj0NHckNfbJfYrBvI7LoLkpM6rCeFW5lNPAwVHxk',
-  'accessTokenSecret': 'pZ92BI6AuqHtYWLaKTmID45OWru66BD3IITh2CKC9gfxE',
+  'consumerKey': '',
+  'consumerSecret': '',
+  'accessToken': '',
+  'accessTokenSecret': '',
   'callBackUrl': ''
 });
 
